@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31241" started-at="2017-05-27T04:52:14Z" finished-at="2017-05-27T04:52:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31241" started-at="2017-05-27T04:52:14Z" finished-at="2017-05-27T04:52:45Z">
+      <class name="testCases.BookFlightScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testCases.BookFlightScript@6a5c3cfe]" name="beforeClass" is-config="true" duration-ms="19991" started-at="2017-05-27T10:22:14Z" finished-at="2017-05-27T10:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="flightBookFlow()[pri:0, instance:testCases.BookFlightScript@6a5c3cfe]" name="flightBookFlow" duration-ms="9760" started-at="2017-05-27T10:22:34Z" finished-at="2017-05-27T10:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBookFlow -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.BookFlightScript@6a5c3cfe]" name="afterClass" is-config="true" duration-ms="1450" started-at="2017-05-27T10:22:44Z" finished-at="2017-05-27T10:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.BookFlightScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

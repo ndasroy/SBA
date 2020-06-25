@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="BROWSER" value=""/>
+  <test name="Test(failed)">
+    <parameter name="BROWSER" value=""/>
+    <classes>
+      <class name="testCases.BookFlightScript">
+        <methods>
+          <include name="flightBookFlow"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testCases.BookFlightScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
